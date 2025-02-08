@@ -1,0 +1,231 @@
+*{
+    color: black;
+}
+.nav{
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flogo{
+    background-image: url("ferrari.jpeg");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+.driver{
+    height: 700px;
+}
+.heading{
+    padding-left: 500px;
+    font-size: 70px;
+    font-weight: 300;
+    color: gray;
+}
+.images{
+    display: flex;
+}
+.img1{
+    background-image: url("charles.avif");
+    height: 500px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url("carlossaniz.avif");
+    height: 500px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img1:hover{
+    width: 60%;
+}
+.img2:hover{
+    width: 60%;
+}
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    flex-wrap: wrap;
+    position: relative;
+}
+.box{ 
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 500px;
+    width: 25%;
+    margin-bottom: 100px;
+    font-family: Helvetica;
+    background: black;
+}
+.img3{
+    background-image: url("diego.avif");
+    background-size: cover;
+    height: 300px;
+}
+h1{
+    color: gray;
+    background-color: black ;
+}
+h3{
+    color: gray;
+    background-color: black;
+}
+.img4{
+    background-image: url("enrico.avif");
+    background-size: cover;
+    height: 300px;
+}
+.img5{
+    background-image: url("francesco.avif");
+    background-size: cover;
+    height: 300px;
+}
+.footer{
+    background: gray;
+    color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.logos{
+    background-image: url("wlogo.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-attachment: scroll;
+}
+.copy{
+    width: 50%;
+    background: none;
+    padding-left: 400px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    background: none;
+}
+.img6{
+    background-image: url("lewis.jpeg");
+    height: 500px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img7{
+    background-image: url("george rusell.jpeg");
+    height: 500px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img6:hover{
+    width: 60%;
+}
+.img7:hover{
+    width: 60%;
+}
+.mlogo{
+    background-image: url("merc.jpeg");
+    background-size: cover;
+    height: 250px;
+    width: 450px;
+}
+.a{
+    background: url("bwback.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.b{
+    background: url("rwback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.c{
+    background: url("rwback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.rlogo{
+    background-image: url("rb.png");
+    background-size: cover;
+    height: 400px;
+    width: 450px;
+}
+.img8{
+    background-image: url("markus.webp");
+    background-size: cover;
+    height: 300px;
+}
+.img9{
+    background-image: url("michael.webp");
+    background-size: cover;
+    height: 300px;
+}
+.img10{
+    background-image: url("toto.jpeg");
+    background-size: cover;
+    height: 300px;
+}
+.img11{
+    background-image: url("max.jpg");
+    height: 500px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img12{
+    background-image: url("alexander albon.jpg");
+    height: 500px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img11:hover{
+    width: 60%;
+}
+.img12:hover{
+    width: 60%;
+}
+.img13{
+    background-image: url("christian horne.jpg");
+    background-size: cover;
+    height: 300px;
+}
+.img14{
+    background-image: url("adrian newy.jpg");
+    background-size: cover;
+    height: 300px;
+}
+.img15{
+    background-image: url("JONATHAN.avif");
+    background-size: cover;
+    height: 300px;
+/* }
+.d{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+.mercedes{ 
+    background-image: url("mercedes.webp");
+    background-size: contain;
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+.mercedes :hover{
+    width: 100%;
+
+} */

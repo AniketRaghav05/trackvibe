@@ -1,0 +1,139 @@
+*{
+    background-image: url("ferrari-sf-21.jpg"); 
+    background-size: cover;
+    color: white;
+    /* background-color: black; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    height: 800px;
+}
+.logo{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    margin-top: 100px;
+    padding-left: 200px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    background: none;
+    font-weight: 200;
+}
+.teams{
+    display: flex;
+    height: 700px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: black;
+}
+.ferrari{
+    background: black;
+} 
+.mercedes{
+    background: black;
+}
+.redbull{
+    background: black;
+}
+.heading{
+    /* display: flex;
+    justify-content: ; */
+    font-size: 50px;
+    height: 100px;
+    width: 100%;
+    padding-left: 525px;
+    font-weight: 100;
+    background: black;
+}
+.box{ 
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 500px;
+    width: 30%;
+    margin-bottom: 100px;
+    font-family: Helvetica;
+    background: black;
+}
+/* .box :hover{
+    height: 502px;
+    width: 32%;
+} */
+/* .box .ferrari :hover{
+    width: 32%;
+}
+.box .mercedes :hover{
+    width: 32%;
+}
+.box .redbull :hover{
+    width: 32%;
+} */
+.img1{
+    background-image: url("flogo.jpg");
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+h1{
+    color: gray;
+    background: black;
+}
+a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 10px;
+    background: black;
+}
+.box p{
+    font-size: 25px;
+    color: gray;
+    background: black;
+}
+.img2{
+    background-image: url("merc.jpeg");
+    background-size: contain;
+    height: 300px;
+    background-attachment: scroll;
+}
+.redbull h1{
+    font-size: 30px;
+}
+.img3{
+    background-image: url("rb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-attachment: scroll;
+}
+.footer{
+    background: gray;
+    color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.logos{
+    background-image: url("wlogo.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    background-attachment: scroll;
+}
+.copy{
+    width: 50%;
+    background: none;
+    padding-left: 400px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    background: none;
+}
